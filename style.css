@@ -1,0 +1,220 @@
+ /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 95% content width */
+.container {
+  width: 95% !important;
+  max-width: 1600px;
+}
+
+/* Carousel Design */
+.carousel {
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+/* Carousel Caption */
+.carousel-caption {
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.carousel-caption h5,
+.carousel-caption h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+}
+
+/* All Sections */
+section {
+  background: white;
+  border-radius: 22px;
+  padding: 30px;
+  margin-top: 30px;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Heading Design */
+section h2 {
+  border-radius: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+/* Paragraph */
+section p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #444;
+}
+
+/* Skill list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #f8f9fa;
+  margin: 12px auto;
+  padding: 14px;
+  border-radius: 12px;
+  width: fit-content;
+  min-width: 220px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  background: #0d6efd;
+  color: white;
+  transform: scale(1.03);
+}
+
+/* Table */
+.table {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table thead th {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.table tbody tr:hover {
+  background: #eef4ff;
+}
+
+/* Internship image */
+.internship img {
+  max-width: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Icons */
+i {
+  margin-left: 10px;
+  color: #0d6efd;
+  font-size: 22px;
+}
+
+/* Contact section */
+.contact ul li {
+  width: 100%;
+  text-align: left;
+  padding: 16px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .carousel-item img {
+    height: 55vh;
+  }
+
+  section h2 {
+    font-size: 1.7rem;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    width: 95% !important;
+  }
+
+  .carousel-item img {
+    height: 40vh;
+  }
+
+  .carousel-caption {
+    padding: 12px;
+  }
+
+  .carousel-caption h5,
+  .carousel-caption h1 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  section h2 {
+    font-size: 1.4rem;
+  }
+
+  section p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  ul li {
+    width: 100%;
+  }
+
+  .internship img {
+    width: 100%;
+  }
+
+  .contact ul li {
+    font-size: 14px;
+    word-break: break-word;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .carousel-item img {
+    height: 32vh;
+  }
+
+  section h2 {
+    font-size: 1.2rem;
+  }
+
+  section p {
+    font-size: 0.9rem;
+  }
+}
+    
